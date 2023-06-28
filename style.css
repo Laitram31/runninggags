@@ -1,0 +1,29 @@
+body{
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	text-align: center;
+}
+
+body.index{
+	height: 97vh;
+}
+
+.content{
+	margin: auto;
+}
+
+ul{
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+}
+
+a{
+	text-decoration: none;
+	color: inherit;
+}
+
+.zikos{
+	text-align: left;
+}
