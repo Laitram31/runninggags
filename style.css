@@ -9,14 +9,27 @@ body{
 
 body.index{
 	height: 97vh;
+	text-shadow: 0 0 8px white;
+	font-family: serif;
 }
 
 .content{
 	/*margin-left: 10%;
 	margin-right: 10%;*/
 	margin: auto;
+	border: 3px dotted #777777;
 	border-radius: 8px;
 	color: #ffffff;
+}
+
+.button{
+	padding: 5px;
+	transition-property: border;
+	transition-duration: 1s;
+}
+
+.button:hover{
+	border: 3px inset #888888;
 }
 
 ul{
@@ -38,7 +51,7 @@ div.zikos:nth-child(odd) .desc{
 	margin-right: 10px;
 }
 
-div.zikos:nth-child(even){	
+div.zikos:nth-child(even){
 	flex-direction: row;
 	margin-left: 5%;
 }
