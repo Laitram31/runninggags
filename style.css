@@ -16,24 +16,20 @@ body.index{
 .content{
 	padding: 5px;
 	margin: auto;
-	margin-left: 15%;
-	margin-right: 15%;
+	margin-left: 10%;
+	margin-right: 10%;
 	border: 3px dotted #777777;
 	border-radius: 8px;
 	color: #ffffff;
 }
 
 .button{
-	padding: 5px;
+	margin-top: 5px;
 	margin-right: auto;
 	margin-left: auto;
-	border: 3px inset #00000000;
-	transition-property: border;
-	transition-duration: 0.5s;
 }
 
 .button:hover{
-	border: 3px inset #888888;
 }
 
 ul{
