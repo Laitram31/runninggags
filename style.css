@@ -1,3 +1,7 @@
+:root{
+	--shadow-size: 8px;
+}
+
 body{
 	display: flex;
 	background: url(img/bg.jpg) no-repeat fixed;
@@ -11,6 +15,27 @@ body.index{
 	height: 97vh;
 	text-shadow: 1px 1px 8px white, -1px -1px 8px white, -1px 1px 8px white, 1px -1px 8px white;
 	font-family: serif;
+}
+
+nav{
+	display: flex;
+	flex-direction: column;
+	justify-content: space-around;
+	position: fixed;
+	height: 100vh;
+	width: 9vw;
+	top:0;
+	left: 0;
+}
+
+nav a{
+	text-shadow: 1px 1px var(--shadow-size) white, -1px -1px var(--shadow-size) white, -1px 1px var(--shadow-size) white, 1px -1px var(--shadow-size) white;
+	transition-property: var(--shadow-size);
+	transition-duration: 1s;
+}
+
+nav a:hover{
+	--shadow-size: 15px;
 }
 
 .content{
